@@ -1,0 +1,6 @@
+{
+  "name": "Trainer Student Payment Portal",
+  "description": "A dashboard for trainers to manage student records, track payments, send automated pending due reminders, and review uploaded receipt screenshots, with an integrated public client-facing page.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

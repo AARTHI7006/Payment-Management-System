@@ -1,0 +1,125 @@
+{
+  "students": [
+    {
+      "id": "std_rahul_sharma",
+      "name": "Rahul Sharma",
+      "phone": "+91 98765 43210",
+      "email": "rahul.sharma@example.com",
+      "batch": "Morning Batch (7:00 AM - 8:30 AM)",
+      "registeredDate": "2026-06-17T09:00:00.000Z",
+      "totalValue": 10000,
+      "amountPaid": 2000,
+      "pendingDue": 8000,
+      "photo": "avatar-1",
+      "payments": [
+        {
+          "id": "pay_initial_rahul",
+          "amount": 2000,
+          "date": "2026-06-17T09:15:00.000Z",
+          "screenshot": "",
+          "status": "Approved",
+          "submittedBy": "Trainer",
+          "notes": "Admission token payment"
+        }
+      ],
+      "remindersCount": 0,
+      "lastReminderSentDate": null,
+      "status": "Partially Paid",
+      "notes": "Enrolled in personal fitness program. Fast learner."
+    },
+    {
+      "id": "std_priya_patel",
+      "name": "Priya Patel",
+      "phone": "+91 87654 32109",
+      "email": "priya.patel@example.com",
+      "batch": "Evening Batch (6:00 PM - 7:30 PM)",
+      "registeredDate": "2026-06-07T18:00:00.000Z",
+      "totalValue": 10000,
+      "amountPaid": 5000,
+      "pendingDue": 5000,
+      "photo": "avatar-2",
+      "payments": [
+        {
+          "id": "pay_initial_priya",
+          "amount": 5000,
+          "date": "2026-06-07T18:30:00.000Z",
+          "screenshot": "",
+          "status": "Approved",
+          "submittedBy": "Trainer",
+          "notes": "Paid 50% advance in cash"
+        }
+      ],
+      "remindersCount": 1,
+      "lastReminderSentDate": "2026-06-17T10:00:00.000Z",
+      "status": "Partially Paid",
+      "notes": "Requested weekend tracking support as well."
+    },
+    {
+      "id": "std_amit_kumar",
+      "name": "Amit Kumar",
+      "phone": "+91 76543 21098",
+      "email": "amit.kumar@example.com",
+      "batch": "Afternoon Batch (12:00 PM - 1:30 PM)",
+      "registeredDate": "2026-06-24T12:00:00.000Z",
+      "totalValue": 10000,
+      "amountPaid": 10000,
+      "pendingDue": 0,
+      "photo": "avatar-3",
+      "payments": [
+        {
+          "id": "pay_full_amit",
+          "amount": 10000,
+          "date": "2026-06-24T12:15:00.000Z",
+          "screenshot": "",
+          "status": "Approved",
+          "submittedBy": "Trainer",
+          "notes": "Full online payment verified"
+        }
+      ],
+      "remindersCount": 0,
+      "lastReminderSentDate": null,
+      "status": "Paid",
+      "notes": "Paid full amount at registration."
+    },
+    {
+      "id": "std_sneha_reddy",
+      "name": "Sneha Reddy",
+      "phone": "+91 99887 76655",
+      "email": "sneha.reddy@example.com",
+      "batch": "Morning Batch (7:00 AM - 8:30 AM)",
+      "registeredDate": "2026-06-26T08:00:00.000Z",
+      "totalValue": 10000,
+      "amountPaid": 0,
+      "pendingDue": 10000,
+      "photo": "avatar-4",
+      "payments": [
+        {
+          "id": "pay_screenshot_sneha",
+          "amount": 3000,
+          "date": "2026-06-28T15:30:00.000Z",
+          "screenshot": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+          "status": "Pending Verification",
+          "submittedBy": "Student",
+          "notes": "Bank transfer screenshot attached"
+        }
+      ],
+      "remindersCount": 0,
+      "lastReminderSentDate": null,
+      "status": "Pending",
+      "notes": "Awaiting verification of uploaded screenshot."
+    }
+  ],
+  "emailLogs": [
+    {
+      "id": "log_init_priya",
+      "studentId": "std_priya_patel",
+      "studentName": "Priya Patel",
+      "recipientEmail": "priya.patel@example.com",
+      "subject": "⚠️ Pending Payment Reminder - 1st Notice",
+      "body": "Dear Priya Patel, this is a friendly reminder that you have a pending payment of ₹5,000 for your Evening Batch (6:00 PM - 7:30 PM). Please complete your payment and upload your receipt screenshot at the portal link: [App Link]",
+      "sentDate": "2026-06-17T10:00:00.000Z",
+      "type": "1st Reminder",
+      "simulated": true
+    }
+  ]
+}
